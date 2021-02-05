@@ -1,6 +1,6 @@
 package javaBySSS;
 
-class BoxClass2 {
+class BoxClassProp_Behav_Fun {
 	// private instance member variable of this box class
 	private int length;
 	private int breadth;
@@ -27,14 +27,14 @@ public class BoxClass {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		BoxClass2 obj = new BoxClass2();
-		obj.setBoxDimensions(2, 3, 4);
-		obj.showBoxDimensions();
-		
-				  obj = new BoxClass2(); // this object deletes the previous object 
-		obj.showBoxDimensions();// Output will be 000 because previous object is no longer exists
-		
-		
+		BoxClassProp_Behav_Fun refOfBoxClassProp_Behav_Fun = new BoxClassProp_Behav_Fun();
+		refOfBoxClassProp_Behav_Fun.setBoxDimensions(2, 3, 4);
+		refOfBoxClassProp_Behav_Fun.showBoxDimensions();
+
+		refOfBoxClassProp_Behav_Fun = new BoxClassProp_Behav_Fun(); // this object deletes the previous object
+		refOfBoxClassProp_Behav_Fun.showBoxDimensions();// Output will be 000 because previous object is no longer
+														// exists
+
 	}
 
 }
