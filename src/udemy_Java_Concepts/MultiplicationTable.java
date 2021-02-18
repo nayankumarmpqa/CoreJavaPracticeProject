@@ -1,7 +1,7 @@
 package udemy_Java_Concepts;
 
 public class MultiplicationTable {
-
+// this is multiplicaiton table program
 	// 5*1 = 1
 	// 5*10=50
 
