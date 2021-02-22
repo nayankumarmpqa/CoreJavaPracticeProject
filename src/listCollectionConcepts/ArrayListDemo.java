@@ -25,7 +25,6 @@ public class ArrayListDemo {
 		a.add("Roop"); // adding duplicate element
 		a.add(3, "elemnt 3 aded");
 		System.out.println(a);
-
 		System.out.println(a.contains("Roopa")); // it gives a boolean result
 
 		a.add(0, "Nayan0"); // adding the element at the given index
