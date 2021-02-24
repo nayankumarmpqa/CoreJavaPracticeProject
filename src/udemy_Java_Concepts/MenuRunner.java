@@ -11,6 +11,7 @@ public class MenuRunner {
 		int a = scanner.nextInt();
 
 		System.out.println("The entered number is : " + a);
+
 	}
 
 }
