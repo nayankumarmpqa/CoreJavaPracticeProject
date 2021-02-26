@@ -30,9 +30,9 @@ public class Menurunner2 {
 		System.out.println("You have entered 2nd number as: " + number2);
 		System.out.println("Selected Choice from the Menu is : " + choice);
 
-		ifelseCalc(number1, number2, choice);
+		// ifelseCalc(number1, number2, choice);
 		// use above object when need ifelseCalc
-		// switchcaseCalc(number1, number2, choice);
+		switchcaseCalc(number1, number2, choice);
 		// use above object when need Switch case Calc
 
 	}
