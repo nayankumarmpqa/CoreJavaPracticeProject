@@ -44,8 +44,10 @@ public class ArrayListDemo {
 		a.add("Liza");
 		a.add("Anshu");
 		a.add("Nitin");
+		a.add(null);
+		a.add(null);
 		
-		System.out.println(a); // it will print the complete list
+		System.out.println("Latest is " + a); // it will print the complete list
 		
 		
 		Iterator<String> itl = a.iterator();

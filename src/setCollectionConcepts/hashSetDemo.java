@@ -21,6 +21,9 @@ public class hashSetDemo {
 		hs2.add("2Indai");
 		hs2.add("2UK");
 		hs2.add("2Nepal");
+		hs2.add(null);
+		hs2.add(null);
+		System.out.println("hhhhh0 " + hs2);
 
 		System.out.println(hs.addAll(hs2)); // here I am adding 2 hashsets
 

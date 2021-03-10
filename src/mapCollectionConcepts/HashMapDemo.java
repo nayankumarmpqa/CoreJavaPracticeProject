@@ -3,7 +3,6 @@ package mapCollectionConcepts;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.Set;
 
 public class HashMapDemo {
@@ -20,7 +19,9 @@ public class HashMapDemo {
 		hm.put(04, "kvalue4");
 		hm.put(06, "kvalue6");
 		hm.put(05, "kvalue5");
-		hm.put(05, "kvalue5");// it will not put duplicate values
+		hm.put(06, "kvalue5");// it will not put duplicate values
+		hm.put(07, null);
+		hm.put(9, null);
 
 		System.out.println(hm.get(3));// this will print value at key num 3.
 
