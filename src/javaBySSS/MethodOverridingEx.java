@@ -2,7 +2,7 @@ package javaBySSS;
 
 class Animal {
 	void eat() {
-		System.out.println("eating.");
+		System.out.println("Animal is eating.");
 	}
 }
 
@@ -19,6 +19,9 @@ public class MethodOverridingEx {
 		Animal a1 = new Animal();
 		d1.eat();
 		a1.eat();
+
+		Animal a2 = new Dog();
+		a2.eat();
 	}
 }
 
